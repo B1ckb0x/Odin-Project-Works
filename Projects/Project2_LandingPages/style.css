@@ -1,0 +1,91 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    color: white;
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 150px;
+    height: 50px;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 10px ;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+/* First-Section-After-Header */
+.First-Section-After-Header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.h1-Left {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.First-Section-After-Header button {
+    display: block;
+    width: 100px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.h1-Right img{
+    width: 492px;
+    height: 277px;
+
+}
+
+
+/* Second-Section-After-Header*/
+
+/* Third-Section-After-Header */
+
+/* Fourth-Section-After-Header */
+
+/* Footer */
