@@ -1,3 +1,29 @@
 * {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+.header {
+    background: #1f2927;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
