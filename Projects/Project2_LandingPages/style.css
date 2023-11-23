@@ -83,9 +83,78 @@ h1 {
 
 
 /* Second-Section-After-Header*/
+.Genre-Type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.Genre-Type img {
+    width: 248px;
+    height: 140px;
+    object-fit: cover;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
 /* Third-Section-After-Header */
+.Third-Section-After-Header {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.Third-Section-After-Header p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.Third-Section-After-Header b {
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: right;
+}
 
 /* Fourth-Section-After-Header */
+.Fourth-Section-After-Header {
+    background-color: #3882f6;
+    margin: 50px 100px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Fourth-Left {
+    flex: 1;
+    text-align: left;
+}
+
+.Fourth-Left p {
+    color: white;
+    margin: 5px 30px;
+}
+
+h3 {
+    color: white;
+    margin: 30px;
+}
+
+.Fourth-Right button{
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
 
 /* Footer */
+.Footer {
+    background-color: #1f2937;
+    color: white;
+}
