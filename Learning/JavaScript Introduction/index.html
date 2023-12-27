@@ -57,6 +57,50 @@
         let actual = MAX - 13;
         let percentage = actual / MAX;
         //If we type actual and percentage in the console we get the answers
+
+        const newline = `One day you finally knew
+        what you had to do, and began,`;
+        console.log(newline);
+        const result = `The max value is ${MAX}`;
+        console.log(result);
+
+        const meet = "meet";
+        const name = "John";
+        console.log(`${meet}, ${name}`);
+
+        //We can use backticks to also perform calculation with template literals
+        const score = 6;
+        const maxScore = 10;
+        const output = `Your score is ${(score / maxScore) * 100 }%`;
+        console.log(output);
+
+        //If - else statements
+        let hour = 5;
+        if (hour < 10) {
+            console.log(`The hour ${hour} is less than 10`);
+        }
+
+        //using else
+        let hour2 = 10
+        if (hour2 < 10) {
+            console.log(`The hour ${hour2} is less than 10`);
+        }
+        else if(hour2 == 10) {
+            console.log(`The hour ${hour2} is equal to 10`);
+        }
+        else {
+            console.log(`The hour ${hour2} is greater than 10`);
+        }
+
+        //We can send preevaluated boolean value
+       // let year = prompt('Enter a year: '); //-Remove comment to run
+        let cond = (year <= 2010);
+        if (cond) {
+            console.log('yes')
+        }
+        else {
+            console.log('no')
+        }
     </script>
 
 </body>
