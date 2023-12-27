@@ -7,12 +7,12 @@
 </head>
 <body>
     <script>
-        // Computer Choice
+        // This allows the computer to pick a random choice between R, P and S
         let choices = ['rock', 'paper', 'scissors'];
         let computerChoice = choices[Math.floor(Math.random() * choices.length)];
         console.log('Computer choice:', computerChoice);
 
-        // Function for play round
+        // This function checks if the computer or user wins or if it's a tie
         function play(playerSelection, computerSelection) {
             if (playerSelection === computerSelection) {
                 console.log('It\'s a tie!');
@@ -27,11 +27,11 @@
             }
         }
 
-        // Get user input
+        // This gets the input from the user before being parsed to the function
         let playerInput = prompt('Your choice: ').toLowerCase();
         console.log('Your choice:', playerInput);
 
-        // Check if the user input is valid
+        // This makes sure the input is valid
         if (choices.includes(playerInput)) {
             play(playerInput, computerChoice);
         } else {
